@@ -1,0 +1,91 @@
+gscan2pdf
+------------------------------------------
+A GUI to ease the process of producing a multipage PDF from a scan.
+
+Runtime requirements:
+  djvulibre
+  gocr
+  ImageMagick
+  perl-5.8.7-5
+  perl-Glib-1.141-1
+  perl-Gtk2-1.141-1
+  perl-Gtk2-Ex-PodViewer-0.16-1
+  perl-Gtk2-Ex-Simple-List-0.50-1
+  perl-Image-Magick-6.3.0.1-2
+  perl-Locale-gettext-1.05-1
+  perl-PDF-API2-0.61-1
+  sane-backends
+  sane-frontends
+  tiff
+  unpaper
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
+  perl-5.8.7-5
+
+Canonical website:
+  http://gscan2pdf.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gscan2pdf/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gscan2pdf-0.9.10-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gscan2pdf-0.9.10-X.cygport all
+
+This will create:
+  /usr/src/gscan2pdf-0.9.10-X-src.tar.bz2
+  /usr/src/gscan2pdf-0.9.10-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gscan2pdf.sh
+  /usr/bin/gscan2pdf
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/gscan2pdf/.packlist
+  /usr/share/applications/gscan2pdf.desktop
+  /usr/share/doc/Cygwin/gscan2pdf-0.9.10.README
+  /usr/share/doc/gscan2pdf-0.9.10/COPYING
+  /usr/share/doc/gscan2pdf-0.9.10/HISTORY
+  /usr/share/doc/gscan2pdf-0.9.10/INSTALL
+  /usr/share/doc/gscan2pdf-0.9.10/LICENCE
+  /usr/share/gscan2pdf/gscan2pdf.png
+  /usr/share/gscan2pdf/pdf.png
+  /usr/share/gscan2pdf/scanner.png
+  /usr/share/gscan2pdf/stock-rotate-180.svg
+  /usr/share/gscan2pdf/stock-rotate-270.svg
+  /usr/share/gscan2pdf/stock-rotate-90.svg
+  /usr/share/locale/be/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/cs/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/da/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/de/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/es/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/fr/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/it/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/nl/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/pl/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/pt/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/ru/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/sv/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gscan2pdf.mo
+  /usr/share/man/man1/gscan2pdf.1p.gz
+  /usr/share/perl/cygwin-pods/5.8/gscan2pdf.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.9.10-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

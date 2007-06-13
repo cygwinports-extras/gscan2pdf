@@ -1,4 +1,4 @@
 category: Graphics Gnome
-requires: perl perl-Glib perl-Gtk2 perl-Gtk2-Ex-PodViewer perl-Gtk2-Ex-Simple-List perl-Locale-gettext perl-PDF-API2 gocr unpaper
-sdesc: 
-ldesc:
+requires: djvulibre gocr ImageMagick perl perl-Glib perl-Gtk2 perl-Gtk2-Ex-PodViewer perl-Gtk2-Ex-Simple-List perl-ImageMagick perl-Locale-gettext perl-PDF-API2 sane-backends sane-frontends tiff unpaper
+sdesc: "GNOME scan-to-PDF frontend"
+ldesc: "A GUI to ease the process of producing a multipage PDF from a scan."
